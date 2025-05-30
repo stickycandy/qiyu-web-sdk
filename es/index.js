@@ -11,7 +11,7 @@ YSF.init = function (appKey, objParams, env) {
     // 日志上报
     var img = new Image();
     // ua信息在request headers中有带过去，不需要在链接重新传了～
-    img.src = "https://qiyukf.com/sdk/res/img/loading.gif?t=" + new Date().getTime() + "&k=" + appKey;
+    img.src = "https://ysf.qiyukf.net/141d0a1e2cfbc6f64401afd132094978.gif?t=" + new Date().getTime() + "&k=" + appKey;
   } catch (error) {
     console.log(error);
   }
@@ -66,7 +66,7 @@ YSF.init = function (appKey, objParams, env) {
         // 上报错误信息
         try {
           var _img = new Image();
-          _img.src = "https://qiyukf.com/sdk/res/img/loading.gif?t=" + new Date().getTime() + "&k=" + appKey + "&error=" + errorMsg;
+          _img.src = "https://ysf.qiyukf.net/141d0a1e2cfbc6f64401afd132094978.gif?t=" + new Date().getTime() + "&k=" + appKey + "&error=" + errorMsg;
         } catch (error) {
           console.log(error);
         }
